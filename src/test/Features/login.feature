@@ -10,8 +10,8 @@ Feature: Login functionality
   Scenario: verifying user can login successfully with valid credentials
     When I enter email as testaccount123@mailinator.com & password as Password123
     And I select sign in link
-    Then I should be logged in successfully
-    And I should be on My account page
+   # Then I should be logged in successfully
+    Then I should be on My account page
 
   @smoke2
   #Unhappy path test case
